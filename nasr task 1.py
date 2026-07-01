@@ -29,11 +29,13 @@ class SmartThermostat:
 
 
         
-thermostat = SmartThermostat("Living Room", 22.5)
+living_room = SmartThermostat("Living Room", 22.5)
 
-thermostat.status()
-thermostat.turn_on()
-thermostat.set_temperature
+living_room.status()
+living_room.set_temperature(20.0)
+living_room.turn_on()
+living_room.set_temperature(20.0)
+living_room.status()
         
 
         
